@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-around;
+    border: solid red 1px;
+    margin-top: 50px;
+    flex-grow: 1;
+}
+
+.layout-center {
+    text-align: center;
+    border: solid black 1px;
+    margin: 10px;
+}
+
+.nav {
+    border: solid blue 1px; 
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(38, 40, 43);
+    height: 150px;
+}
+
+img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+ul {
+    display: inline-block
+}
+
+ 
